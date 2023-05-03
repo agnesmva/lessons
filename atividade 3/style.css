@@ -1,0 +1,30 @@
+body{
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    border: none;
+    flex-wrap: wrap
+}
+.conteudo {
+    background-color: rgb(245, 244, 244);
+    border-style:outset;
+    height: 800px;
+    width: 600px;
+    
+}
+.titulo {
+
+background-color: rgba(128, 128, 128, 0.397);
+text-align: center;
+padding: 10px;
+}
+.imagem {
+    
+    padding: 10%; /* ao inves de usar margin-left e margin-top: usei padding*/
+}
+.texto{
+    height: 800px;
+    width: 600px;
+    color: black;
+
+}
