@@ -1,0 +1,92 @@
+
+*{
+    border: none;
+    padding: 0%;
+    margin: 0%;
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+main{
+    border: outset pink;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.coracao{
+    width: 400px;
+    height: 400px;
+    transform: rotate(45deg);
+    transform-origin: center;
+    position: relative;
+    background: rgb(228, 19, 54);
+    margin: 100px auto;
+    border-width: 2px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    animation-name: bater;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+ }
+ .coracao::before, .coracao::after{
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: rgb(228, 19, 54);
+    
+ }
+.coracao::before{
+    left: -50%;
+    border-left: solid black;
+    border-width: 2px;
+ }
+ .coracao::after{
+    top: -50%;
+    border-top: solid black;
+    border-width: 2px;
+ }
+ @keyframes bater{
+    0% {
+        width: 400px;
+        height: 400px;
+        opacity: 1;
+        
+    }
+    50%{
+    
+        width: 410px;
+        height: 410px;
+        opacity: 0.7;
+        border: inset white;
+    }
+    100%{
+        width: 400px;
+        height: 400px;
+        opacity: 1;
+        
+    }
+ }
+ @keyframes textinho {
+    0% {
+        visibility: hidden;
+        
+    }
+    50%{
+    
+       visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+        
+    }
+ }
+ 
+ 
