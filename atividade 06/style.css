@@ -1,0 +1,12 @@
+*{
+    border: none;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(241, 247, 205);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+body{
+padding: 200px;
+display: flex;
+justify-content: center;
+}
