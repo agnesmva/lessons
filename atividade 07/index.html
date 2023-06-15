@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 07</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    <h1>Somando Valores</h1>
+        
+        <section>
+            <p>Insira os números desejados nas caixas abaixo</p>
+            <input type="text" id="numero1" maxlength="5" placeholder="número">
+            
+            <input type="text" id="numero2" maxlength="5" placeholder="número">
+            <p>Escolha a operação a ser feita</p>
+            <button onclick="somar()"><img src="img/mais.png" alt=""></button>
+            <button onclick="subtrair()"><img src="img/menos.png" alt=""></button>
+            <button onclick="multiplicar()"><img src="img/multiplicar.png" alt=""></button>
+            <button onclick="dividir()"><img src="img/divisao.png" alt="botão de divisão"></button>
+                <p id="resultado"></p>
+        </section>
+    <script src="calcular.js"></script>
+</body>
+</html>

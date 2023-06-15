@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(231, 159, 159);
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+h1{
+    background-color: antiquewhite;
+    padding: 50px;
+    margin-right: 200px;
+    text-align: center;
+    color: coral;
+    border-radius: 50px;
+    font-size: 48px;
+}
+section{
+    background-color: antiquewhite;
+    text-align: center;
+    margin-right: 200px;
+    border-radius: 50px;
+}
+input{
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+p{
+    font-size: 28px;
+    color: coral;
+}
+img{
+    width: 100px;
+}
+img:hover{
+    background-color: rgb(210, 247, 138);
+    border-radius: 50%;
+}
