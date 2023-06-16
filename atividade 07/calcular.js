@@ -6,12 +6,12 @@ function somar() {
     var n1 = Number(num1);
     var n2 = Number(num2);
     var resultado = n1 + n2;
-    document.getElementById("resultado").textContent = "O resultado da soma é " + resultado;
+    
     if (isNaN(resultado)){
         document.getElementById("resultado").textContent = "Insira dois números para fazer a operação";
     }
     else {
-        document.getElementById("resultado").textContent = "O resultado da divisão é " + resultado;
+        document.getElementById("resultado").textContent = "O resultado da soma é " + resultado;
     }
 }
 
@@ -21,12 +21,12 @@ function subtrair() {
     var n1 = Number(num1);
     var n2 = Number(num2);
     var resultado = n1 - n2;
-    document.getElementById("resultado").textContent = "O resultado da subtração é " + resultado;
+    
     if (isNaN(resultado)){
         document.getElementById("resultado").textContent = "Insira dois números para fazer a operação";
     }
     else {
-        document.getElementById("resultado").textContent = "O resultado da divisão é " + resultado;
+        document.getElementById("resultado").textContent = "O resultado da subtração é " + resultado;
     }
 }
 function multiplicar(){
@@ -35,12 +35,12 @@ function multiplicar(){
     var n1 = Number(num1);
     var n2 = Number(num2);
     var resultado = n1 * n2;s
-    document.getElementById("resultado").textContent = "O resultado da multiplicação é " + resultado;
+    
     if (isNaN(resultado)){
         document.getElementById("resultado").textContent = "Insira dois números para fazer a operação";
     }
     else {
-        document.getElementById("resultado").textContent = "O resultado da divisão é " + resultado;
+        document.getElementById("resultado").textContent = "O resultado da multiplicação é " + resultado;
     }
 }
 function dividir(){
