@@ -34,7 +34,7 @@ function multiplicar(){
     var num2 = document.getElementById("numero2").value;
     var n1 = Number(num1);
     var n2 = Number(num2);
-    var resultado = n1 * n2;s
+    var resultado = n1 * n2;
     
     if (isNaN(resultado)){
         document.getElementById("resultado").textContent = "Insira dois números para fazer a operação";
