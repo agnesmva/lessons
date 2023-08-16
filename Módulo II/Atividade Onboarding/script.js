@@ -4,7 +4,6 @@ const lampadaOff = document.getElementById("off")
 const corpo = document.getElementById("corpo")
 const texto = document.getElementById("texto")
 switchBtn.addEventListener("change", () => {
-  // Do something when the switch is toggled
   if (switchBtn.checked) {
     lampadaOn.style.display = "block";
     lampadaOff.style.display = "none";
