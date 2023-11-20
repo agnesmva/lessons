@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(84, 48, 84, 1);
+    font-family: 'Barlow Condensed', sans-serif;
+    justify-content: center;
+    align-items: center ;
+}
+h1{
+    margin-top: 25px;
+    text-align: center;
+}
+.slide{
+    width: 800px;
+    border: 3px solid rgba(217, 217, 217, 1);
+    margin: 0 auto;
+    overflow: hidden;
+    align-items: center;
+}
+.slide input{
+    display: none;
+}
+.slide img:not(:first-child){
+    width: 800px;
+    display: none;
+    transition: 1s ease-in-out;
+}
+.imagens{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    
+    
+}
+.nav-manual, .nav-automatica {
+    position: absolute;
+    width: 800px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.manual-btn{
+    border: 1px solid black;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.manual-btn:hover{
+    background-color: rgba(217, 217, 217, 1);
+    transition: 0.5s;
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Minhas últimas apresentações</h1>
+    <section class="slide">
+        
+        <div class="conteudo">
+            <input type="radio" id="radio1">
+            <input type="radio" id="radio2">
+            <input type="radio" id="radio3">
+            <input type="radio" id="radio4">
+            <input type="radio" id="radio5">
+            <input type="radio" id="radio6">
+            <div class="imagens">
+                <img src="imagem 1.jpg" alt="Gabriella de costas e a sua frente temos o público curtindo sua música. Imagem possui efeito verde." id="img1" height="600">
+                <img src="imagem 2.jpg" alt="Gabriella de frente tocando e um menino ao lado dela, falando no ouvido dela." id="img2" height="600">
+                <img src="imagem 3.jpg" alt="Gabriela de perfil, possui tatuagens no braço, cabelo cacheado batendo nas costas e óculos preto." id="img3" height="600">
+                <img src="imagem 4.jpg" alt="Gabriela tocando. Imagem com efeito preto e branco." id="img4" height="600">
+                <img src="imagem 5.jpg" alt="Gabriela aponta para você" id="img5" height="600">
+                <img src="imagem 10.jpg" alt="Gabriela vestida de Hera Venenosa faz sinal de dois para sua direção. " id="img6" height="600">
+                
+            </div>
+            <div class="nav-automatica">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+            </div>
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn" onclick="MudarImagem" ></label>
+                <label for="radio2" class="manual-btn" onclick="MudarImagem"  ></label>
+                <label for="radio3" class="manual-btn" ></label></label>
+                <label for="radio4" class="manual-btn" ></label></label>
+                <label for="radio5" class="manual-btn" ></label></label>
+                <label for="radio6" class="manual-btn"></label>
+
+            </div>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
