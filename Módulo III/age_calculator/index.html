@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="container" onload="calcularIdade()">
+    <section class="container" >
         <form>
-            <section class="cabecalho" id="cabecalho">
+            <section class="cabecalhonormal" id="cabecalho">
                 <div class="dia">
                     <label for="day">Dia</label>
                     <input id="day" placeholder="DD" required>
@@ -26,16 +26,15 @@
             
             <section class="containerbtn">
                 <hr>
-                <button type="submit" class="btn"><img src="assets/icon-arrow.svg" alt="icon-arrow"></button>
+                <button type="button" onclick="AgeCalculate()" class="btn"><img src="assets/icon-arrow.svg" alt="icon-arrow"></button>
             </section>
         </form>
         <section class="principal">
             <p><span id="years">--</span> anos</p>
-            <p id="months"><span>--</span> meses</p>
-            <p id="days"><span>--</span> dias</p>
+            <p><span id="months">--</span> meses</p>
+            <p><span id="days">--</span> dias</p>
         </section>
     </section>
     <script src="script.js"></script>
-
 </body>
 </html>

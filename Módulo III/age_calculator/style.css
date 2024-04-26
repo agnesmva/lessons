@@ -14,7 +14,7 @@ body{
     padding: 2em; /*substituir o with: 350px, height: 350px*/
     border-radius: 12px 12px 80px;
 }
-.cabecalho{
+.cabecalhonormal{
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
@@ -23,7 +23,7 @@ body{
     font-size: 8px;
     
 }
-.cabecalho div{
+.cabecalhonormal div{
     display: flex;
     flex-direction: column;
     gap: 1em;
